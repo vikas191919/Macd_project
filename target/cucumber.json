@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 12991381000,
+              "duration": 10278706700,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 32,
-        "name": "user should search and select a location",
+        "line": 14,
+        "name": "The user should be able to successfully login into the website",
         "description": "",
-        "id": "user-should-add-an-item-to-cart;user-should-search-and-select-a-location;-;2",
+        "id": "user-should-add-an-item-to-cart;the-user-should-be-able-to-successfully-login-into-the-website;-;2",
         "after": [
           {
             "result": {
-              "duration": 43700,
+              "duration": 40400,
               "status": "passed"
             },
             "match": {
@@ -34,43 +34,59 @@
         "steps": [
           {
             "result": {
-              "duration": 6970578600,
+              "duration": 809505000,
               "status": "passed"
             },
-            "line": 27,
-            "name": "user click on location label  and enters a \"visakhapatnam\"",
+            "line": 8,
+            "name": "User is on home page and click on login/signup",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"visakhapatnam\"",
-                  "offset": 43
-                }
-              ],
-              "location": "stepdefinition.user_click_on_location_label_and_enters_a(String)"
+              "location": "stepdefinition.user_is_on_home_page_and_click_on_login_signup()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1877157900,
+              "duration": 221547400,
               "status": "passed"
             },
-            "line": 28,
-            "name": "the user selects first location displayed and enters address and address type",
+            "line": 9,
+            "name": "User clicks on the Login Via Password option",
             "match": {
-              "location": "stepdefinition.the_user_selects_first_location_displayed_and_enters_address_and_address_type()"
+              "location": "stepdefinition.user_clicks_on_the_Login_Via_Password_option()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1982560200,
+              "duration": 3000515100,
               "status": "passed"
             },
-            "line": 29,
-            "name": "the location should be selected",
+            "line": 10,
+            "name": "User enters mobile number as \"9908409453\" and password as \"vikas1235\"",
             "match": {
-              "location": "stepdefinition.the_location_should_be_selected()"
+              "arguments": [
+                {
+                  "val": "\"9908409453\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"vikas1235\"",
+                  "offset": 58
+                }
+              ],
+              "location": "stepdefinition.user_enters_mobile_number_as_and_password_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3256201000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "login should be successful",
+            "match": {
+              "location": "stepdefinition.login_should_be_successful()"
             },
             "keyword": "Then "
           }
@@ -80,7 +96,7 @@
             "name": "@test"
           },
           {
-            "name": "@location"
+            "name": "@login"
           }
         ]
       }
