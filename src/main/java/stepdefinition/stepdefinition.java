@@ -85,17 +85,17 @@ public void the_error_message_should_be_displayed(String string){
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 @Given("user click on location label  and enters a {string}")
 public void user_click_on_location_label_and_enters_a(String string) throws InterruptedException {
-	homepage.clickonlogin();
+	   /*homepage.clickonlogin();
 	   homepage.loginbypassword();
 	   homepage.mobilenumber("8555034397");
 	   Thread.sleep(500);
 	   homepage.password("viaks1234");
 	   Thread.sleep(1000);
 	   homepage.loginbutton();
-	   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);*/
 	   page.location();
        Thread.sleep(3000);
-     //page.changeloc();
+    // page.changeloc();
        page.locsearch(string);
        Thread.sleep(3000);
 	

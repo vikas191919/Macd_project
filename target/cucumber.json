@@ -1,0 +1,104 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12991381000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.initialize()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "user should search and select a location",
+        "description": "",
+        "id": "user-should-add-an-item-to-cart;user-should-search-and-select-a-location;-;2",
+        "after": [
+          {
+            "result": {
+              "duration": 43700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6970578600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user click on location label  and enters a \"visakhapatnam\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"visakhapatnam\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefinition.user_click_on_location_label_and_enters_a(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1877157900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user selects first location displayed and enters address and address type",
+            "match": {
+              "location": "stepdefinition.the_user_selects_first_location_displayed_and_enters_address_and_address_type()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1982560200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the location should be selected",
+            "match": {
+              "location": "stepdefinition.the_location_should_be_selected()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          },
+          {
+            "name": "@location"
+          }
+        ]
+      }
+    ],
+    "name": "user should add an item to cart",
+    "description": "",
+    "id": "user-should-add-an-item-to-cart",
+    "keyword": "Feature",
+    "uri": "resources/macd.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

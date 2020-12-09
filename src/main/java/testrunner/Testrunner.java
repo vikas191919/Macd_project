@@ -6,12 +6,12 @@ import cucumber.api.junit.Cucumber;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(
+@CucumberOptions(plugin = {"json:target/cucumber.json"},
 features = "resources"
 ,glue={"stepdefinition"}
-//,tags={"@location"}
+,tags={"@location"}
 //,tags={"@invalidlocation"}
-,tags={"@login"}
+//,tags={"@test"}
 )
 
 
